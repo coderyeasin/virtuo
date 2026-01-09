@@ -1,4 +1,3 @@
-import React from "react";
 import { FaArchive } from "react-icons/fa";
 
 const CapsuleBox = ({ value }: { value: string }) => {
