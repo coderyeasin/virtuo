@@ -1,5 +1,6 @@
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoIosArrowDropright } from "react-icons/io";
+import thirdShape from "/assets/images/third-shape.png";
 
 const SocialWorld = () => {
   return (
@@ -9,7 +10,7 @@ const SocialWorld = () => {
       </h1>
       <div className="flex justify-center my-20 w-full ">
         <div className="border-2 border-primary p-4 rounded-4xl relative">
-          <div className="bg-[url(../../src/assets/images/first-shape.png)] w-xl h-lg bg-cover pl-10 py-7 space-y-20 rounded-4xl">
+          <div className="bg-[url(/assets/images/first-shape.png)] w-xl h-lg bg-cover pl-10 py-7 space-y-20 rounded-4xl">
             <h1 className="font-montserrat font-bold text-4xl">
               Virtual <br /> World <br /> Creation
             </h1>
@@ -31,13 +32,9 @@ const SocialWorld = () => {
           </p>
         </div>
         <div className="w-5/12 flex justify-center relative">
-          <div className="bg-[url(../../src/assets/images/second-shape.png)] bg-contain bg-no-repeat bg-center w-full h-full ">
+          <div className="bg-[url(/assets/images/second-shape.png)] bg-contain bg-no-repeat bg-center w-full h-full ">
             <div className="relative">
-              <img
-                src="../../src/assets/images/third-shape.png"
-                className="ml-28 pt-5"
-                alt=""
-              />
+              <img src={thirdShape} className="ml-28 pt-5" alt="" />
               <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-8 left-36">
                 <FaLaptopCode className="text-5xl text-secondary  bg-TextPrimary rounded-full p-2 " />
               </p>

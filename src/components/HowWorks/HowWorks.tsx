@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
+import fourHalf from "/assets/images/four-half.png";
 
 const HowWorks = () => {
   return (
@@ -8,7 +9,7 @@ const HowWorks = () => {
           How it’s <span className="text-primary">works?</span>
         </h3>
         <div className="flex justify-center items-center gap-33 ">
-          <div className="bg-[url(../../src/assets/images/fourth-shape.png)] bg-cover bg-no-repeat w-183 h-80 flex justify-between py-3">
+          <div className="bg-[url(/assets/images/fourth-shape.png)] bg-cover bg-no-repeat w-183 h-80 flex justify-between py-3">
             <div className="px-10 py-7">
               <p className="font-poppins text-darkSecondary text-center bg-TextPrimary px-2 py-3 mb-5 rounded-full w-22">
                 Step 01
@@ -19,11 +20,7 @@ const HowWorks = () => {
               </p>
             </div>
             <div>
-              <img
-                className=" w-72.75 h-75 mr-2"
-                src="../../src/assets/images/four-half.png"
-                alt=""
-              />
+              <img className=" w-72.75 h-75 mr-2" src={fourHalf} alt="" />
             </div>
           </div>
           <div className="w-129 h-68.75 bg-darkSecondary rounded-[30px] flex items-center mt-12 p-2">

@@ -54,7 +54,7 @@ const RightSection = () => {
             </p>
           </div>
         </div>
-        {/* <div className="bg-[url(../../src/assets/images/play-shape.png)] w-214 h-42.25 bg-cover"></div> */}
+        {/* <div className="bg-[url(/assets/images/play-shape.png)] w-214 h-42.25 bg-cover"></div> */}
       </div>
     </section>
   );
