@@ -55,7 +55,7 @@ const LeftSection = () => {
           Get Started
         </button>
       </div>
-      <div className="flex justify-center items-center gap-20 pt-30 pb-5 ml-22">
+      <div className="flex justify-center items-center gap-24 pt-30 pb-5 ml-35">
         <ProductInfo firstValue="230M" secondValue="User" thirdValue="+" />
         <ProductInfo firstValue="12y" secondValue="Experience" thirdValue="" />
         <ProductInfo firstValue="98M" secondValue="Asset" thirdValue="+" />

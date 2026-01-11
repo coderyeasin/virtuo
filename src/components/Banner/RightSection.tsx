@@ -48,16 +48,15 @@ const RightSection = () => {
       </aside>
       <div className="absolute -bottom-28 to right-0 w-full p-6 bg-TextPrimary">
         <div className="relative w-214 h-42.25">
-          <div className="absolute inset-0 bg-[url(/assets/images/play-shape.png)] bg-cover z-30 flex justify-center items-center">
+          <div className="absolute inset-0 bg-[url(/assets/images/play-shape.png)] bg-cover z-50 flex justify-center items-center">
             <div className="bg-primary/70 h-28 w-28 rounded-full flex justify-center items-center">
               <p className="text-xl bg-secondary h-20 w-20 rounded-full flex justify-center items-center">
                 <FaPlay className="text-5xl" />
               </p>
             </div>
           </div>
-          {/* <p className="bg-primary w-14 h-14 rounded-tl-4xl absolute -top-2 left-16 rotate-13 z-30"></p> */}
-          {/* <p className="bg-TextPrimary w-20 h-20 rounded-tl-4xl rotate-180 rounded-full absolute -top-8 left-9 z-20"></p> */}
-          <p className="absolute text-xl bg-darkSecondary h-34 w-20 -top-16.5 -left-14 rotate-35 z-10"></p>
+          {/* <p className="bg-TextPrimary w-14 h-14 rounded-tl-4xl absolute -top-9 left-11 rotate-19 z-30"></p> */}
+          <p className="absolute text-xl bg-darkSecondary h-34 w-20 -top-16.5 -left-14 rotate-35 z-10 "></p>
         </div>
       </div>
     </section>
