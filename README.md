@@ -54,7 +54,7 @@ The primary objective of this project was to:
 - **ReactJS**
 - **TypeScript**
 - **Tailwind CSS**
-- **Figma (Design Reference)**
+- **Figma ([Design Reference](https://www.figma.com/design/n7UCNJP0AjoIqldsDJ419a/Virtuo---Metavers-Technology-Website--Copy---Copy---Copy-?node-id=0-1&t=R9a2E8RJqkTsoFS8-1))**
 
 ---
 
