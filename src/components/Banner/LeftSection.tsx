@@ -15,7 +15,7 @@ const ProductInfo = ({
   thirdValue: string | null;
 }) => {
   return (
-    <div>
+    <div className="space-y-2">
       <p className="font-montserrat font-medium text-4xl">
         {firstValue}
         <span className="text-primary text-3xl">{thirdValue}</span>
@@ -30,12 +30,11 @@ const LeftSection = () => {
     "bg-offWhite w-11 h-11 rounded-full border-2 border-secondary -ml-3";
 
   return (
-    <section className="grid pt-50">
+    <section className="grid pt-40">
       <h1 className="font-montserrat font-extralight tracking-wider text-8xl text-center ml-9 mb-3">
         Explore
       </h1>
-      {/* [#011106] - it would be also gradient and button will be shadow*/}
-      <div className="space-y-5 bg-[#020f06] text-center">
+      <div className="space-y-5 bg-linear-to-r from-[#020f06] to-[#011106] text-center">
         <div className="flex justify-center items-center gap-6 ml-7">
           <div className="bg-[#061F0D]/80 rounded-4xl flex items-center p-2 max-w-48">
             <p className="bg-offWhite w-11 h-11 rounded-full"></p>
@@ -52,12 +51,12 @@ const LeftSection = () => {
         <p className="font-montserrat font-extralight text-8xl text-center">
           Metaverse
         </p>
-        <button className="font-poppins mr-73 font-semibold text-xl bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-5 px-6 rounded-3xl mt-10 hover:scale-105 transition-transform cursor-pointer">
+        <button className="font-poppins mr-73 font-semibold text-xl drop-shadow-2xl drop-shadow-primary/50 bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-5 px-6 rounded-3xl mt-10 hover:scale-105 transition-transform cursor-pointer">
           Get Started
         </button>
       </div>
-      <div className="flex justify-center items-center gap-20 mt-20 pb-5 ml-22">
-        <ProductInfo firstValue="230M" secondValue="user" thirdValue="+" />
+      <div className="flex justify-center items-center gap-20 pt-30 pb-5 ml-22">
+        <ProductInfo firstValue="230M" secondValue="User" thirdValue="+" />
         <ProductInfo firstValue="12y" secondValue="Experience" thirdValue="" />
         <ProductInfo firstValue="98M" secondValue="Asset" thirdValue="+" />
         <IoArrowForward className="text-3xl" />

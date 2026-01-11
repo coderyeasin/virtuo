@@ -3,7 +3,6 @@ import { BsBrowserChrome } from "react-icons/bs";
 import { FiHardDrive } from "react-icons/fi";
 import { GrCube } from "react-icons/gr";
 import { FaPlay } from "react-icons/fa6";
-// import playShape from "/assets/images/play-shape.png";
 
 const RightSection = () => {
   const commonBoxStyles =
@@ -48,17 +47,18 @@ const RightSection = () => {
         </div>
       </aside>
       <div className="absolute -bottom-28 to right-0 w-full p-6 bg-TextPrimary">
-        <div className=" bg-offWhite max-w-11/12 h-32 rounded-tr-[40px] rounded-br-[40px] rounded-tl-[40px] rounded-bl-[40px] p-2">
-          <div className="bg-primary/70 h-28 w-28 flex justify-center items-center rounded-full mx-auto">
-            <p className="text-xl bg-secondary h-20 w-20 rounded-full flex justify-center items-center">
-              <FaPlay className="text-5xl" />
-            </p>
+        <div className="relative w-214 h-42.25">
+          <div className="absolute inset-0 bg-[url(/assets/images/play-shape.png)] bg-cover z-30 flex justify-center items-center">
+            <div className="bg-primary/70 h-28 w-28 rounded-full flex justify-center items-center">
+              <p className="text-xl bg-secondary h-20 w-20 rounded-full flex justify-center items-center">
+                <FaPlay className="text-5xl" />
+              </p>
+            </div>
           </div>
+          {/* <p className="bg-primary w-14 h-14 rounded-tl-4xl absolute -top-2 left-16 rotate-13 z-30"></p> */}
+          {/* <p className="bg-TextPrimary w-20 h-20 rounded-tl-4xl rotate-180 rounded-full absolute -top-8 left-9 z-20"></p> */}
+          <p className="absolute text-xl bg-darkSecondary h-34 w-20 -top-16.5 -left-14 rotate-35 z-10"></p>
         </div>
-        {/* <div className="bg-[url(/assets/images/play-shape.png)] w-214 h-42.25 bg-cover"></div> */}
-        {/* <img src={playShape} alt="playShape" className="w-214 h-40 z-10" />
-        <p className="text-xl bg-TextPrimary h-20 w-20 rounded-[40px] absolute -top-2 left-10 z-0"></p>
-        <p className="text-xl bg-primary h-28 w-14 absolute -top-6 -left-4 rotate-37"></p> */}
       </div>
     </section>
   );
