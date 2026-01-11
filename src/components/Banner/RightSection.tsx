@@ -3,7 +3,7 @@ import { BsBrowserChrome } from "react-icons/bs";
 import { FiHardDrive } from "react-icons/fi";
 import { GrCube } from "react-icons/gr";
 import { FaPlay } from "react-icons/fa6";
-import playShape from "/assets/images/play-shape.png";
+// import playShape from "/assets/images/play-shape.png";
 
 const RightSection = () => {
   const commonBoxStyles =

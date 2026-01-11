@@ -34,6 +34,7 @@ const LeftSection = () => {
       <h1 className="font-montserrat font-extralight tracking-wider text-8xl text-center ml-9 mb-3">
         Explore
       </h1>
+      {/* [#011106] - it would be also gradient and button will be shadow*/}
       <div className="space-y-5 bg-[#020f06] text-center">
         <div className="flex justify-center items-center gap-6 ml-7">
           <div className="bg-[#061F0D]/80 rounded-4xl flex items-center p-2 max-w-48">
