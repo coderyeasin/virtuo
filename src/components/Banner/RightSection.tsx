@@ -47,8 +47,8 @@ const RightSection = () => {
         </div>
       </aside>
       <div className="absolute -bottom-22 right-0 w-full ">
-        <div className="relative w-214 h-42.25 border-14 border-TextPrimary p-2 bg-offWhite rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-[3rem] rounded-tl-[9rem]">
-          <div className="flex justify-center items-center">
+        <div className="relative w-214 h-42.25">
+          <div className="bg-offWhite rounded-tr-[3rem] rounded-br-[3rem] rounded-bl-[3rem] rounded-tl-[9rem] flex justify-center items-center border-14 border-TextPrimary p-2">
             <div className="bg-primary/70 h-28 w-28 rounded-full flex justify-center items-center">
               <p className="text-xl bg-secondary h-20 w-20 rounded-full flex justify-center items-center">
                 <FaPlay className="text-5xl" />
