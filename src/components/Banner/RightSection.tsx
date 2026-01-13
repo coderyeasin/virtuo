@@ -56,7 +56,6 @@ const RightSection = () => {
             </div>
           </div>
           {/* <p className="bg-TextPrimary w-14 h-14 rounded-tl-4xl absolute -top-9 left-11 rotate-19 z-30"></p> */}
-          {/* <p className="absolute text-xl bg-darkSecondary h-34 w-20 -top-16.5 -left-14 rotate-35 z-10 "></p> */}
         </div>
       </div>
     </section>
