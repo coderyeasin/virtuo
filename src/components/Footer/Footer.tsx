@@ -1,9 +1,38 @@
-// header --- linear shed
-// bg-linear-to-bl from-darkSecondary via-offWhite to-primary h-[744px]
+import type React from "react";
 
-const Footer = () => {
+interface ListTypes {
+  items: string[];
+  activeItems: string;
+  className?: string;
+}
+
+const ListStyleBox: React.FC<ListTypes> = ({
+  items,
+  activeItems,
+  className,
+}) => {
   return (
-    <footer className="bg-darkSecondary h-[744px]">
+    <div>
+      <nav className={`list-none flex gap-5 font-poppins text-xl ${className}`}>
+        {items.map((item, i) => (
+          <li
+            key={i}
+            className={
+              item === activeItems ? "text-primary" : "text-TextPrimary"
+            }
+          >
+            {item}
+          </li>
+        ))}
+      </nav>
+    </div>
+  );
+};
+const Footer = () => {
+  const navItems: string[] = ["About.", "Service.", "Tools.", "Contacts."];
+  const langItems: string[] = ["En", "Es", "Fr", "De", "Ru"];
+  return (
+    <footer className="bg-darkSecondary h-186">
       <section className="flex justify-evenly items-center gap-10 py-30">
         <div>
           <input
@@ -17,14 +46,7 @@ const Footer = () => {
             Contact us
           </button>
         </div>
-        <div>
-          <nav className="list-none flex gap-5 font-poppins text-xl">
-            <li className="text-primary">About.</li>
-            <li className="text-TextPrimary">Service.</li>
-            <li className="text-TextPrimary">Tools.</li>
-            <li className="text-TextPrimary">Contacts.</li>
-          </nav>
-        </div>
+        <ListStyleBox items={navItems} activeItems="About." />
       </section>
       <section className="flex justify-around items-end py-20">
         <div>
@@ -56,13 +78,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-poppins text-xl pb-5 text-right">Languages</h3>
-          <nav className="list-none flex gap-5 font-poppins text-xl">
-            <li className="text-primary">En</li>
-            <li className="text-TextPrimary">Es</li>
-            <li className="text-TextPrimary">Fr</li>
-            <li className="text-TextPrimary">De</li>
-            <li className="text-TextPrimary">Ru</li>
-          </nav>
+          <ListStyleBox items={langItems} activeItems="En" />
         </div>
       </section>
     </footer>
