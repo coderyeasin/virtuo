@@ -1,0 +1,25 @@
+import type { ListTypes } from "../lib/constraints";
+
+const ListStyleBox: React.FC<ListTypes> = ({
+  items,
+  activeItems,
+  className,
+}) => {
+  return (
+    <div>
+      <nav className={`list-none flex gap-5 font-poppins text-xl ${className}`}>
+        {items.map((item, i) => (
+          <li
+            key={i}
+            className={
+              item === activeItems ? "text-primary" : "text-TextPrimary"
+            }
+          >
+            {item}
+          </li>
+        ))}
+      </nav>
+    </div>
+  );
+};
+export default ListStyleBox;

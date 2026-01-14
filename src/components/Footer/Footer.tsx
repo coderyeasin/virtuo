@@ -1,10 +1,5 @@
 import type React from "react";
-
-interface ListTypes {
-  items: string[];
-  activeItems: string;
-  className?: string;
-}
+import type { ListTypes } from "../../lib/constraints";
 
 const ListStyleBox: React.FC<ListTypes> = ({
   items,
