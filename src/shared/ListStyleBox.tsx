@@ -1,4 +1,4 @@
-import type { ListTypes } from "./lib/interface";
+import type { ListTypes } from "../utils/interface";
 
 const ListStyleBox: React.FC<ListTypes> = ({
   items,
