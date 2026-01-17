@@ -31,7 +31,7 @@ const LeftSection = () => {
 
   return (
     <section className="grid pt-40">
-      <h1 className="font-montserrat font-extralight tracking-wider text-8xl text-center ml-9 mb-3">
+      <h1 className="font-montserrat font-light tracking-wider text-8xl text-center ml-9 mb-3">
         Explore
       </h1>
       <div className="space-y-5 bg-linear-to-r from-[#020f06] to-[#011106] text-center">
@@ -46,9 +46,9 @@ const LeftSection = () => {
             </p>
           </div>
 
-          <p className="font-montserrat font-extralight text-8xl">Infinite</p>
+          <p className="font-montserrat font-light text-8xl">Infinite</p>
         </div>
-        <p className="font-montserrat font-extralight text-8xl text-center">
+        <p className="font-montserrat font-light text-8xl text-center">
           Metaverse
         </p>
         <button className="font-poppins mr-73 font-semibold text-xl drop-shadow-2xl drop-shadow-primary/50 bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-5 px-6 rounded-3xl mt-10 hover:scale-105 transition-transform cursor-pointer">
