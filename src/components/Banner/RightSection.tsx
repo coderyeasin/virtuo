@@ -24,9 +24,9 @@ const RightSection = () => {
             <BsBrowserChrome className="cursor-pointer" />
           </div>
           <p className="bg-white shadow-lg shadow-gray-50 w-5 h-5 rounded-full absolute top-5 right-5 -rotate-90"></p>
-          <p className="absolute top-7 -right-12  border-2 border-white w-20"></p>
-          <p className="absolute top-0 -right-29 -rotate-45  border-2 border-white w-20"></p>
-          <p className="absolute -top-7 -right-46 border-2 border-white w-20"></p>
+          <p className="absolute top-7.5 -right-11 border-t border-white w-20"></p>
+          <p className="absolute -top-7 -right-16 border-r border-white w-14 h-14 rounded-br-[20px] rotate-35"></p>
+          <p className="absolute -top-3 -right-43 border-t border-white w-26 h-20 rounded-tl-[20px]"></p>
         </div>
         <div className="flex gap-5 absolute bottom-10">
           <div className="flex flex-col gap-3">

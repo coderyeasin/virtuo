@@ -1,4 +1,4 @@
-import ListStyleBox from "../../utils/ReuseFunc";
+import ListStyleBox from "../../shared/ListStyleBox";
 
 const Footer = () => {
   const navItems: string[] = ["About.", "Service.", "Tools.", "Contacts."];
