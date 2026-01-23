@@ -5,8 +5,8 @@ const Footer = () => {
   const langItems: string[] = ["En", "Es", "Fr", "De", "Ru"];
   return (
     <footer className="bg-darkSecondary h-186">
-      <section className="flex justify-evenly items-center gap-10 py-30">
-        <div>
+      <section className="flex flex-col lg:flex-row justify-evenly items-center gap-10 py-30">
+        <div className="md:flex md:justify-between md:gap-10">
           <input
             type="email"
             name="email"
