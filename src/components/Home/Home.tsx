@@ -9,7 +9,7 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <main className="">
-      <div className="bg-linear-to-tl from-[#061F0D] via-[#000A03] via-65% to-offWhite to-80%">
+      <div className="bg-linear-to-tl from-[#061F0D] via-[#000A03] lg:via-65% md:via-77% to-offWhite to-80%">
         <Navbar />
         <Banner />
       </div>
