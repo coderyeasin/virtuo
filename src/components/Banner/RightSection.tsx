@@ -9,7 +9,7 @@ const RightSection = () => {
     "h-10 w-10 bg-primary border-4 border-gray-400 rounded-full flex justify-center items-center";
   return (
     <section className="relative">
-      <aside className="bg-offWhite place-items-center w-6/12 mr-0 rounded-br-[40px] absolute top-0 h-160 right-64">
+      <aside className="bg-offWhite place-items-center w-6/12 mr-0 rounded-br-[40px] absolute top-0 right-64 h-160">
         <div className="absolute -left-36 top-50 bg-primary/20 ring-2 ring-primary p-4 rounded-2xl">
           <div className="relative bg-radial-[at_25%_25%] from-primary to-secondary to-75% w-40 h-auto rounded-2xl px-4 py-4">
             <div className="font-poppins text-xl font-medium  space-y-3">
