@@ -2,7 +2,7 @@ import { FaArchive } from "react-icons/fa";
 
 const CapsuleBox = ({ value }: { value: string }) => {
   return (
-    <p className="font-poppins text-black bg-TextPrimary rounded-full px-[19px] py-2 grid place-items-center">
+    <p className="font-poppins text-black bg-TextPrimary rounded-full px-4 py-2 grid place-items-center">
       {value}
     </p>
   );
@@ -16,10 +16,10 @@ const MetaVerse = () => {
           Learn and Grow in <br /> the{" "}
           <span className="text-primary">Metaverse</span>
         </h1>
-        <p className="absolute lg:-left-30 md:-left-60 -top-30 bg-offWhite w-85.75 h-79.5 rounded-[30px]"></p>
-        <p className="absolute md:right-16 -top-20 bg-offWhite lg:w-48.5 lg:h-45.25 w-16 h-45.25 rounded-bl-[30px] rounded-tl-[30px]"></p>
+        <p className="hidden lg:block absolute lg:-left-30 md:-left-60 -top-30 bg-offWhite w-85.75 h-79.5 rounded-[30px]"></p>
+        <p className="hidden lg:block absolute right-0 -top-20 bg-offWhite lg:w-48.5 lg:h-45.25 w-16 h-45.25 rounded-bl-[30px] rounded-tl-[30px]"></p>
       </div>
-      <div className="bg-offWhite rounded-[40px] max-w-5xl h-120 p-4 mx-auto flex flex-col justify-between">
+      <div className="bg-offWhite rounded-[40px] lg:max-w-5xl h-120 p-4 mx-auto flex flex-col justify-between">
         <div className="flex justify-between items-center p-3">
           <p className="bg-offWhite border-2 border-white p-2 rounded-full">
             <FaArchive className="text-2xl" />
@@ -35,7 +35,7 @@ const MetaVerse = () => {
           </div>
         </div>
 
-        <div className="bg-TextPrimary/40 w-full p-4 rounded-full flex justify-center">
+        <div className="bg-TextPrimary/40 w-full p-4 rounded-full flex flex-wrap lg:flex-row justify-center">
           <CapsuleBox value="Monetize" />
           <CapsuleBox value="Virtual Reality" />
           <CapsuleBox value="Game" />
@@ -48,9 +48,9 @@ const MetaVerse = () => {
           <CapsuleBox value="Thrive" />
         </div>
       </div>
-      <div className="relative">
-        <p className="absolute left-0 -bottom-18 bg-offWhite w-48.5 h-45.25 rounded-tr-[30px] rounded-br-[30px]"></p>
-        <p className="absolute right-0 -bottom-30 bg-offWhite w-48 h-79.5 rounded-bl-[30px] rounded-tl-[30px]"></p>
+      <div className="hidden lg:block relative py-20 lg:py-0">
+        <p className="absolute left-0 -bottom-48 lg:-bottom-18 bg-offWhite lg:w-48.5 lg:h-45.25 w-16 h-45.25 rounded-tr-[30px] rounded-br-[30px]"></p>
+        <p className="absolute right-0 lg:-bottom-30 bg-offWhite w-48 h-79.5 rounded-bl-[30px] rounded-tl-[30px]"></p>
       </div>
     </section>
   );
