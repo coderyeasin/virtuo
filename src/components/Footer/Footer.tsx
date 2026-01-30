@@ -4,8 +4,8 @@ const Footer = () => {
   const navItems: string[] = ["About.", "Service.", "Tools.", "Contacts."];
   const langItems: string[] = ["En", "Es", "Fr", "De", "Ru"];
   return (
-    <footer className="bg-darkSecondary h-186">
-      <section className="flex flex-col lg:flex-row justify-evenly items-center gap-10 py-30">
+    <footer className="bg-darkSecondary lg:h-186">
+      <section className="flex flex-col lg:flex-row justify-evenly items-center gap-10 lg:py-30 py-15">
         <div className="md:flex md:justify-between md:gap-10">
           <input
             type="email"
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <ListStyleBox items={navItems} activeItems="About." />
       </section>
-      <section className="flex justify-around items-end py-20">
+      <section className="flex flex-col md:flex-row lg:flex-row lg:justify-around lg:items-end justify-center items-center space-y-15 lg:space-y-0 py-10 lg:py-20">
         <div>
           <h3 className="text-5xl font-bold text-TextPrimary">Virtuo.</h3>
         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h3 className="font-poppins text-xl pb-5 text-right">Languages</h3>
+          <h3 className="font-poppins text-xl pb-5 lg:text-right">Languages</h3>
           <ListStyleBox items={langItems} activeItems="En" />
         </div>
       </section>

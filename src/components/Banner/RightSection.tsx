@@ -51,7 +51,7 @@ const RightSection = () => {
           className="relative bg-offWhite rounded-tr-[4rem] rounded-br-[4rem] rounded-bl-[4rem] 
           rounded-tl-[9rem] border-20 border-TextPrimary"
         >
-          <div className=" flex justify-center items-center lg:w-222 lg:h-42.25 w-160 h-30">
+          <div className=" flex justify-center items-center lg:w-222 lg:h-42.25 md:w-160 w-120 h-30">
             <div className="bg-primary/70 lg:h-28 lg:w-28 h-20 w-20 rounded-full flex justify-center items-center">
               <p className="text-xl bg-secondary h-14 w-14 lg:h-20 lg:w-20 rounded-full ring-4 ring-primary/90 flex justify-center items-center">
                 <FaPlay className="text-3xl lg:text-5xl" />

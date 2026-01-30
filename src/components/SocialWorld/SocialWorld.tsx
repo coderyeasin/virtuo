@@ -8,8 +8,8 @@ const SocialWorld = () => {
       <h1 className="font-montserrat font-semibold text-5xl text-black text-center">
         Metaverse, Meet Your <br /> Social World
       </h1>
-      <div className="flex flex-col lg:flex-row lg:justify-center gap-y-20 lg:gap-40 my-20">
-        <div className="border-2 border-primary p-4 rounded-4xl relative mx-auto lg:mx-0">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-40 my-20">
+        <div className="border-2 border-primary p-4 rounded-4xl relative">
           <div className="bg-[url(/assets/images/first-shape.png)] w-xl h-lg bg-cover pl-10 py-7 space-y-20 rounded-4xl">
             <h1 className="font-montserrat font-bold text-4xl">
               Virtual <br /> World <br /> Creation
@@ -30,7 +30,7 @@ const SocialWorld = () => {
             <IoIosArrowDropright className="text-3xl text-primary" />
           </p>
         </div>
-        <div className="bg-[url(/assets/images/second-shape.png)] bg-contain bg-no-repeat bg-center w-156.5 h-122.25 mx-auto lg:mx-0">
+        <div className="bg-[url(/assets/images/second-shape.png)] bg-contain bg-no-repeat bg-center w-156.5 h-122.25">
           <div className="flex p-5 relative">
             <div className="relative">
               <img

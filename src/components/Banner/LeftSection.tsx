@@ -30,13 +30,13 @@ const LeftSection = () => {
     "bg-offWhite w-11 h-11 rounded-full border-2 border-secondary -ml-3";
 
   return (
-    <section className="grid pt-40">
-      <h1 className="font-montserrat font-light tracking-wider text-8xl text-center ml-9 mb-3">
+    <section className="w-full grid pt-40">
+      <h1 className="font-montserrat font-light tracking-wider lg:text-8xl text-5xl text-center lg:ml-9 mb-3">
         Explore
       </h1>
-      <div className="space-y-5 bg-linear-to-r from-[#020f06] to-[#011106] text-center">
-        <div className="flex justify-center items-center gap-6 ml-7">
-          <div className="bg-[#061F0D]/80 rounded-4xl flex items-center p-2 max-w-48">
+      <div className="space-y-5 lg:bg-linear-to-r from-[#020f06] to-[#011106] text-center">
+        <div className="flex justify-center items-center gap-6 lg:ml-7">
+          <div className="bg-[#061F0D]/80 rounded-4xl flex items-center p-2 lg:max-w-48 max-w-40">
             <p className="bg-offWhite w-11 h-11 rounded-full"></p>
             <BoxStyles className={circleStyles} />
             <BoxStyles className={circleStyles} />
@@ -46,12 +46,14 @@ const LeftSection = () => {
             </p>
           </div>
 
-          <p className="font-montserrat font-light text-8xl">Infinite</p>
+          <p className="font-montserrat font-light lg:text-8xl text-5xl">
+            Infinite
+          </p>
         </div>
-        <p className="font-montserrat font-light text-8xl text-center">
+        <p className="font-montserrat font-light lg:text-8xl text-5xl text-center">
           Metaverse
         </p>
-        <button className="font-poppins mr-73 font-semibold text-xl drop-shadow-2xl drop-shadow-primary/50 bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-5 px-6 rounded-3xl mt-10 hover:scale-105 transition-transform cursor-pointer">
+        <button className="font-poppins lg:mr-73 mb-15 lg:mb-0 font-semibold text-xl drop-shadow-2xl drop-shadow-primary/50 bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-5 px-6 rounded-3xl mt-10 hover:scale-105 transition-transform cursor-pointer">
           Get Started
         </button>
       </div>

@@ -3,30 +3,34 @@ import fourHalf from "/assets/images/four-half.png";
 
 const HowWorks = () => {
   return (
-    <section className="py-20 bg-radial-[at_50%_50%] from-primary/70 via-TextPrimary to-TextPrimary to-70% w-full">
-      <div className="">
-        <h3 className="font-montserrat font-semibold text-5xl text-black ml-65 py-20">
+    <section className="lg:py-20 bg-radial-[at_50%_50%] from-primary/70 via-TextPrimary to-TextPrimary to-70% w-full">
+      <div>
+        <h3 className="font-montserrat font-semibold text-5xl text-black lg:ml-65 py-20 text-center">
           How it’s <span className="text-primary">works?</span>
         </h3>
-        <div className="flex justify-center items-center gap-33 ">
-          <div className="bg-[url(/assets/images/fourth-shape.png)] bg-cover bg-no-repeat w-183 h-80 flex justify-between py-3">
-            <div className="px-10 py-7">
-              <p className="font-poppins text-darkSecondary text-center bg-TextPrimary px-2 py-3 mb-5 rounded-full w-22">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-33 ">
+          <div className="bg-[url(/assets/images/fourth-shape.png)] bg-contain lg:bg-cover bg-no-repeat lg:w-183 w-100 h-80 flex justify-between py-3">
+            <div className="px-10 lg:py-7 py-3">
+              <p className="font-poppins text-darkSecondary text-center bg-TextPrimary px-2 lg:py-3 py-1 mb-2 lg:mb-5 rounded-full w-22">
                 Step 01
               </p>
-              <p className="font-poppins text-TextPrimary text-[40px]">
+              <p className="font-poppins text-TextPrimary lg:text-[40px] text-md">
                 Sign Up & <br />
                 Create Your <br /> Avatar
               </p>
             </div>
             <div>
-              <img className=" w-72.75 h-75 mr-2" src={fourHalf} alt="" />
+              <img
+                className="lg:w-72.75 lg:h-75 w-50 h-38 mr-2"
+                src={fourHalf}
+                alt=""
+              />
             </div>
           </div>
-          <div className="w-129 h-68.75 bg-darkSecondary rounded-[30px] flex items-center mt-12 p-2">
+          <div className="lg:w-129 w-100 h-68.75 bg-darkSecondary rounded-[30px] flex items-center mt-12 p-2">
             <div className="w-33.25 h-63.75 bg-offWhite rounded-[20px]"></div>
             <div className="w-74 space-y-5 ml-14">
-              <p className="font-poppins text-TextPrimary text-xl">
+              <p className="font-poppins text-TextPrimary lg:text-xl text-md">
                 Create a personalized <br /> account and design your <br />{" "}
                 avatar for the metaverse.
               </p>
@@ -37,7 +41,7 @@ const HowWorks = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-around items-start gap-105 py-10">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-around lg:items-start lg:gap-105 gap-10 py-10">
         <div className="space-y-5">
           <h3 className="font-poppins text-primary font-bold text-xl">
             Step 02

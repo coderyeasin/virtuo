@@ -48,11 +48,13 @@ const CardStyles = ({
 
 const ChooseUs = () => {
   return (
-    <section className="py-20">
-      <div className="flex justify-around items-center">
-        <div className="space-y-5">
-          <h3 className="text-2xl text-primary font-poppins">Why choose us</h3>
-          <h1 className="text-5xl text-black font-montserrat">
+    <section className="lg:pt-40">
+      <div className="flex flex-col lg:flex-row space-y-7 lg:space-y-0 justify-around items-center text-center lg:text-justify">
+        <div className="space-y-5 text-center lg:text-justify">
+          <h3 className="lg:text-2xl text-xl text-primary font-poppins">
+            Why choose us
+          </h3>
+          <h1 className="lg:text-5xl text-2xl text-black font-montserrat">
             Accessible Metaverse, <br /> Anytime,{" "}
             <span className="text-primary">Anywhere</span>
           </h1>
@@ -71,7 +73,7 @@ const ChooseUs = () => {
       </div>
       {/* card section */}
       <div className="py-20 relative ">
-        <div className="flex gap-20 justify-center relative">
+        <div className="flex flex-col lg:flex-row lg:gap-20 justify-center items-center relative">
           <CardStyles
             id="0/2"
             title="Metaverse"
@@ -93,8 +95,8 @@ const ChooseUs = () => {
             subHeading="Connectivity"
             gradientCls="bg-linear-to-t from-darkSecondary to-offWhite mt-20"
           />
-          <p className="bg-linear-to-t from-darkSecondary to-darkSecondary mt-20 w-20 h-103.5 rounded-bl-[20px] rounded-tl-[20px] absolute right-0"></p>
-          <p className="bg-linear-to-t from-darkSecondary to-darkSecondary mt-20 w-20 h-103.5 rounded-tr-[20px] rounded-br-[20px] absolute left-0"></p>
+          <p className="hidden lg:block bg-linear-to-t from-darkSecondary to-darkSecondary mt-20 w-20 h-103.5 rounded-bl-[20px] rounded-tl-[20px] absolute right-0"></p>
+          <p className="hidden lg:block bg-linear-to-t from-darkSecondary to-darkSecondary mt-20 w-20 h-103.5 rounded-tr-[20px] rounded-br-[20px] absolute left-0"></p>
         </div>
       </div>
     </section>
