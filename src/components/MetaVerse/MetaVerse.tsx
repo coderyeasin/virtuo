@@ -12,20 +12,26 @@ const MetaVerse = () => {
   return (
     <section className="py-20">
       <div className="relative pb-50">
-        <h1 className="font-montserrat font-semibold text-5xl text-black text-center">
-          Learn and Grow in <br /> the{" "}
-          <span className="text-primary">Metaverse</span>
+        <h1 className="font-montserrat font-semibold text-4xl lg:text-5xl text-black text-center">
+          Learn and Grow in <br /> the
+          <span className="text-primary"> Metaverse</span>
         </h1>
         <p className="hidden lg:block absolute lg:-left-30 md:-left-60 -top-30 bg-offWhite w-85.75 h-79.5 rounded-[30px]"></p>
         <p className="hidden lg:block absolute md:right-16 lg:right-0 -top-20 bg-offWhite lg:w-48.5 lg:h-45.25 w-16 h-45.25 rounded-bl-[30px] rounded-tl-[30px]"></p>
       </div>
-      <div className="bg-offWhite rounded-[40px] max-w-5xl h-120 p-4 flex flex-col justify-between mx-12 lg:mx-auto">
+      <div
+        className="bg-offWhite rounded-[40px] w-full
+  max-w-lg
+  sm:max-w-xl
+  md:max-w-3xl
+  lg:max-w-5xl h-120 p-4 flex flex-col justify-between mx-12 lg:mx-auto"
+      >
         <div className="flex justify-between items-center p-3">
           <p className="bg-offWhite border-2 border-white p-2 rounded-full">
             <FaArchive className="text-2xl" />
           </p>
           <div className="bg-[#04170A] p-3 w-40 rounded-full flex justify-evenly items-center">
-            <p className="font-poppins text-xl">
+            <p className="font-poppins lg:text-xl text-md">
               360° <br />
               View
             </p>
