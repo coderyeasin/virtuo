@@ -5,12 +5,26 @@ import thirdShape from "/assets/images/third-shape.png";
 const SocialWorld = () => {
   return (
     <section className="py-40">
-      <h1 className="font-montserrat font-semibold text-5xl text-black text-center">
+      <h1 className="font-montserrat font-semibold text-2xl lg:text-5xl text-black text-center">
         Metaverse, Meet Your <br /> Social World
       </h1>
-      <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-40 my-20">
-        <div className="border-2 border-primary p-4 rounded-4xl relative">
-          <div className="bg-[url(/assets/images/first-shape.png)] w-xl h-lg bg-cover pl-10 py-7 space-y-20 rounded-4xl">
+      <div
+        className="
+        flex flex-col lg:flex-row
+        justify-center items-center lg:items-start
+        gap-20 lg:gap-40
+        my-16 lg:my-20
+        w-full"
+      >
+        <div className="border-2 border-primary p-4 rounded-4xl relative lg:w-4.5/12 ">
+          <div
+            className=" w-full
+          bg-[url(/assets/images/first-shape.png)] bg-cover lg:bg-contain bg-no-repeat lg:bg-center lg:w-xl lg:h-lg  
+          pl-10 py-7 space-y-20 rounded-4xl 
+          
+                 
+          "
+          >
             <h1 className="font-montserrat font-bold text-4xl">
               Virtual <br /> World <br /> Creation
             </h1>
@@ -26,25 +40,28 @@ const SocialWorld = () => {
               </div>
             </div>
           </div>
-          <p className="bg-TextPrimary rounded-2xl h-16 w-16 absolute top-8 right-8 flex justify-center items-center">
+          <p className="bg-TextPrimary rounded-2xl h-16 w-16 absolute top-10 right-6 lg:top-8 lg:right-8 flex justify-center items-center">
             <IoIosArrowDropright className="text-3xl text-primary" />
           </p>
         </div>
-        <div className="bg-[url(/assets/images/second-shape.png)] bg-contain bg-no-repeat bg-center w-156.5 h-122.25">
-          <div className="flex p-5 relative">
+        <div
+          className="bg-[url(/assets/images/second-shape.png)] 
+        bg-contain bg-no-repeat bg-center lg:w-156.5 h-122.25 w-120 "
+        >
+          <div className="flex gap-5 lg:gap-0 p-5 relative">
             <div className="relative">
               <img
                 src={thirdShape}
-                className="w-69.5 h-112.25"
+                className="w-69.5 h-112.25 object-contain"
                 alt="inner_shape"
               />
-              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-8 left-10">
+              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-18 left-10 lg:bottom-8 lg:left-10">
                 <FaLaptopCode className="text-5xl text-secondary  bg-TextPrimary rounded-full p-2 " />
               </p>
             </div>
 
-            <div className="text-TextPrimary space-y-14 absolute left-80 pt-10 px-5">
-              <h1 className="text-4xl font-bold">
+            <div className="text-TextPrimary lg:space-y-14 space-y-5 lg:absolute lg:left-80 pt-10 px-5 mt-8 lg:mt-0">
+              <h1 className="text-xl lg:text-4xl font-bold">
                 Virtual <br /> Events <br /> Hosting
               </h1>
               <p className="font-poppins text-xl">

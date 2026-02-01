@@ -21,7 +21,7 @@ const MetaVerse = () => {
       </div>
       <div
         className="bg-offWhite rounded-[40px] w-full
-  max-w-lg
+  max-w-md
   sm:max-w-xl
   md:max-w-3xl
   lg:max-w-5xl h-120 p-4 flex flex-col justify-between mx-12 lg:mx-auto"
