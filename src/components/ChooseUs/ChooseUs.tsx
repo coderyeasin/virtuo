@@ -73,7 +73,7 @@ const ChooseUs = () => {
       </div>
       {/* card section */}
       <div className="py-20 relative ">
-        <div className="flex flex-col md:flex-wrap lg:flex-row lg:gap-20 justify-center items-center relative">
+        <div className="flex flex-col lg:flex-row lg:gap-20 justify-center items-center relative">
           <CardStyles
             id="0/2"
             title="Metaverse"

@@ -11,7 +11,7 @@ const CapsuleBox = ({ value }: { value: string }) => {
 const MetaVerse = () => {
   return (
     <section className="py-20">
-      <div className="relative pb-50">
+      <div className="relative pb-20 lg:pb-50">
         <h1 className="font-montserrat font-semibold text-4xl lg:text-5xl text-black text-center">
           Learn and Grow in <br /> the
           <span className="text-primary"> Metaverse</span>

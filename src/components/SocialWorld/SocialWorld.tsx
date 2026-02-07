@@ -4,8 +4,8 @@ import thirdShape from "/assets/images/third-shape.png";
 
 const SocialWorld = () => {
   return (
-    <section className="py-40">
-      <h1 className="font-montserrat font-semibold text-2xl lg:text-5xl text-black text-center">
+    <section className="pt-20 lg:py-40">
+      <h1 className="font-montserrat font-semibold text-2xl lg:text-5xl text-black text-center py-10 lg:py-0">
         Metaverse, Meet Your <br /> Social World
       </h1>
       <div
@@ -14,7 +14,7 @@ const SocialWorld = () => {
         justify-center items-center lg:items-start
         gap-20 lg:gap-40
         my-16 lg:my-20
-        w-80 sm:100 md:120 mx-auto lg:mx-0 lg:w-full"
+        w-90 sm:w-100 md:w-120 mx-auto lg:mx-0 lg:w-full"
       >
         <div className="border-2 border-primary p-4 rounded-4xl relative lg:w-4.5/12 ">
           <div
@@ -46,7 +46,7 @@ const SocialWorld = () => {
         </div>
         <div
           className="bg-[url(/assets/images/second-shape.png)] 
-        bg-contain bg-no-repeat bg-center lg:w-156.5 h-122.25 md:w-120 w-90 sm:100 md:120"
+        bg-contain bg-no-repeat bg-center lg:w-156.5 h-122.25 md:w-120 w-90 sm:100 "
         >
           <div className="flex gap-5 lg:gap-0 p-5 relative">
             <div className="relative">
@@ -55,12 +55,12 @@ const SocialWorld = () => {
                 className="w-50 lg:w-69.5 h-112.25 object-contain"
                 alt="inner_shape"
               />
-              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-28 md:bottom-18 left-10 lg:bottom-8 lg:left-10">
+              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-28 md:bottom-24 left-10 lg:bottom-8 lg:left-10">
                 <FaLaptopCode className="text-5xl text-secondary  bg-TextPrimary rounded-full p-2 " />
               </p>
             </div>
 
-            <div className="text-TextPrimary lg:space-y-14 space-y-5 lg:absolute lg:left-80 pt-10 px-5 mt-14 lg:mt-0">
+            <div className="text-TextPrimary lg:space-y-14 space-y-5 lg:absolute lg:left-80 pt-10 px-5 mt-14 md:mt-5 lg:mt-0">
               <h1 className="text-sm sm:text-md md:text-xl lg:text-4xl font-bold">
                 Virtual <br /> Events <br /> Hosting
               </h1>
