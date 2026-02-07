@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-darkSecondary lg:h-186">
       <section className="flex flex-col lg:flex-row justify-evenly items-center gap-10 lg:py-30 py-15">
-        <div className="md:flex md:justify-between md:gap-10">
+        <div className="flex flex-col md:flex-row md:justify-between gap-10">
           <input
             type="email"
             name="email"

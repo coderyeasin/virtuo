@@ -14,7 +14,7 @@ const SocialWorld = () => {
         justify-center items-center lg:items-start
         gap-20 lg:gap-40
         my-16 lg:my-20
-        w-full"
+        w-80 sm:100 md:120 mx-auto lg:mx-0 lg:w-full"
       >
         <div className="border-2 border-primary p-4 rounded-4xl relative lg:w-4.5/12 ">
           <div
@@ -46,29 +46,29 @@ const SocialWorld = () => {
         </div>
         <div
           className="bg-[url(/assets/images/second-shape.png)] 
-        bg-contain bg-no-repeat bg-center lg:w-156.5 h-122.25 w-120 "
+        bg-contain bg-no-repeat bg-center lg:w-156.5 h-122.25 md:w-120 w-90 sm:100 md:120"
         >
           <div className="flex gap-5 lg:gap-0 p-5 relative">
             <div className="relative">
               <img
                 src={thirdShape}
-                className="w-69.5 h-112.25 object-contain"
+                className="w-50 lg:w-69.5 h-112.25 object-contain"
                 alt="inner_shape"
               />
-              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-18 left-10 lg:bottom-8 lg:left-10">
+              <p className="h-16 w-16 bg-TextPrimary/40 rounded-full flex justify-center items-center absolute bottom-28 md:bottom-18 left-10 lg:bottom-8 lg:left-10">
                 <FaLaptopCode className="text-5xl text-secondary  bg-TextPrimary rounded-full p-2 " />
               </p>
             </div>
 
-            <div className="text-TextPrimary lg:space-y-14 space-y-5 lg:absolute lg:left-80 pt-10 px-5 mt-8 lg:mt-0">
-              <h1 className="text-xl lg:text-4xl font-bold">
+            <div className="text-TextPrimary lg:space-y-14 space-y-5 lg:absolute lg:left-80 pt-10 px-5 mt-14 lg:mt-0">
+              <h1 className="text-sm sm:text-md md:text-xl lg:text-4xl font-bold">
                 Virtual <br /> Events <br /> Hosting
               </h1>
-              <p className="font-poppins text-xl">
+              <p className="font-poppins text-sm sm:text-md md:text-xl">
                 Provide tools for virtual <br /> concerts, conferences, <br />{" "}
                 and workshops.
               </p>
-              <button className="font-poppins font-semibold text-xl bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-4 px-6 rounded-3xl cursor-pointer">
+              <button className="font-poppins font-semibold text-sm md:text-xl bg-radial-[at_25%_25%] from-primary to-secondary to-75% py-1 px-5 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-4 lg:px-6 rounded-3xl cursor-pointer">
                 Get Started
               </button>
             </div>

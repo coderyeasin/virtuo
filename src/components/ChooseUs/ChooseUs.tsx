@@ -16,7 +16,7 @@ const CardStyles = ({
 }) => {
   return (
     <div
-      className={`${gradientCls} flex flex-col justify-around px-7 w-102 h-103.5 rounded-[20px]`}
+      className={`${gradientCls} flex flex-col justify-around px-7 w-80 sm:100 md:102 lg:w-102  h-103.5 rounded-[20px]`}
     >
       <div className="flex justify-between items-center">
         <p className="text-TextPrimary font-poppins text-xl">{id}</p>
@@ -73,7 +73,7 @@ const ChooseUs = () => {
       </div>
       {/* card section */}
       <div className="py-20 relative ">
-        <div className="flex flex-col lg:flex-row lg:gap-20 justify-center items-center relative">
+        <div className="flex flex-col md:flex-wrap lg:flex-row lg:gap-20 justify-center items-center relative">
           <CardStyles
             id="0/2"
             title="Metaverse"

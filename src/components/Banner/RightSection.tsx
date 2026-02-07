@@ -24,9 +24,9 @@ const RightSection = () => {
             <BsBrowserChrome className="cursor-pointer" />
           </div>
           <p className="bg-white shadow-lg shadow-gray-50 w-5 h-5 rounded-full absolute top-5 right-5 -rotate-90"></p>
-          <p className="absolute top-7.5 -right-11 border-t border-white w-20"></p>
-          <p className="absolute -top-7 -right-16 border-r border-white w-14 h-14 rounded-br-[20px] rotate-35"></p>
-          <p className="absolute -top-3 -right-43 border-t border-white w-26 h-20 rounded-tl-[20px]"></p>
+          <p className="hidden md:block absolute top-7.5 -right-11 border-t border-white w-20"></p>
+          <p className="hidden md:block absolute -top-7 -right-16 border-r border-white w-14 h-14 rounded-br-[20px] rotate-35"></p>
+          <p className="hidden md:block absolute -top-3 -right-43 border-t border-white w-26 h-20 rounded-tl-[20px]"></p>
         </div>
         <div className="flex gap-5 absolute lg:bottom-10 top-7/12">
           <div className="flex flex-col gap-3">
@@ -37,7 +37,7 @@ const RightSection = () => {
               <GrCube className="text-xl" />
             </div>
           </div>
-          <div className="relative bg-radial-[at_25%_25%] from-primary to-secondary to-75% w-50 h-24 rounded-2xl px-4 py-4">
+          <div className="relative bg-radial-[at_25%_25%] from-primary to-secondary to-75% lg:w-50 md:w-50 w-40 h-24 rounded-2xl px-4 py-4">
             <p className="font-poppins text-xl font-medium">
               Global <br /> Connectivity
             </p>
@@ -51,7 +51,7 @@ const RightSection = () => {
           className="relative bg-offWhite rounded-tr-[4rem] rounded-br-[4rem] rounded-bl-[4rem] 
           rounded-tl-[9rem] border-20 border-TextPrimary"
         >
-          <div className=" flex justify-center items-center lg:w-222 lg:h-42.25 md:w-160 w-120 h-30">
+          <div className=" flex justify-center items-center lg:w-222 lg:h-42.25 md:w-160 w-80 sm:100 md:120 h-30">
             <div className="bg-primary/70 lg:h-28 lg:w-28 h-20 w-20 rounded-full flex justify-center items-center">
               <p className="text-xl bg-secondary h-14 w-14 lg:h-20 lg:w-20 rounded-full ring-4 ring-primary/90 flex justify-center items-center">
                 <FaPlay className="text-3xl lg:text-5xl" />

@@ -36,7 +36,7 @@ const LeftSection = () => {
       </h1>
       <div className="space-y-5 lg:bg-linear-to-r from-[#020f06] to-[#011106] text-center">
         <div className="flex justify-center items-center gap-6 lg:ml-7">
-          <div className="bg-[#061F0D]/80 rounded-4xl flex items-center p-2 lg:max-w-48 max-w-40">
+          <div className="hidden bg-[#061F0D]/80 rounded-4xl md:flex items-center p-2 lg:max-w-48 max-w-40">
             <p className="bg-offWhite w-11 h-11 rounded-full"></p>
             <BoxStyles className={circleStyles} />
             <BoxStyles className={circleStyles} />
@@ -57,7 +57,7 @@ const LeftSection = () => {
           Get Started
         </button>
       </div>
-      <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-24 lg:pt-30 lg:pb-5 lg:ml-35 md:py-20">
+      <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center gap-10 py-5 lg:gap-24 lg:pt-30 lg:pb-5 lg:ml-35 md:py-20">
         <ProductInfo firstValue="230M" secondValue="User" thirdValue="+" />
         <ProductInfo firstValue="12y" secondValue="Experience" thirdValue="" />
         <ProductInfo firstValue="98M" secondValue="Asset" thirdValue="+" />

@@ -8,26 +8,26 @@ const HowWorks = () => {
         <h3 className="font-montserrat font-semibold text-5xl text-black lg:ml-65 py-20 text-center">
           How it’s <span className="text-primary">works?</span>
         </h3>
-        <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-33 ">
-          <div className="bg-[url(/assets/images/fourth-shape.png)] bg-contain lg:bg-cover bg-no-repeat lg:w-183 w-100 h-80 flex justify-between py-3">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-33  mx-auto">
+          <div className="bg-[url(/assets/images/fourth-shape.png)] bg-contain lg:bg-cover bg-no-repeat lg:w-183 w-80 sm:100 md:102 h-80 flex justify-between py-3">
             <div className="px-10 lg:py-7 py-3">
               <p className="font-poppins text-darkSecondary text-center bg-TextPrimary px-2 lg:py-3 py-1 mb-2 lg:mb-5 rounded-full w-22">
                 Step 01
               </p>
-              <p className="font-poppins text-TextPrimary lg:text-[40px] text-md">
+              <p className="font-poppins text-TextPrimary lg:text-[40px] md:text-md text-sm">
                 Sign Up & <br />
                 Create Your <br /> Avatar
               </p>
             </div>
             <div>
               <img
-                className="lg:w-72.75 lg:h-75 w-50 h-38 mr-2"
+                className="lg:w-72.75 lg:h-75 w-35 sm:50 md:60 h-30 sm:h-30 md:h-30 mr-2"
                 src={fourHalf}
                 alt=""
               />
             </div>
           </div>
-          <div className="lg:w-129 w-100 h-68.75 bg-darkSecondary rounded-[30px] flex items-center mt-12 p-2">
+          <div className="w-80 sm:100 md:112 lg:w-129 h-68.75 bg-darkSecondary rounded-[30px] flex items-center mt-12 p-2">
             <div className="w-33.25 h-63.75 bg-offWhite rounded-[20px]"></div>
             <div className="w-74 space-y-5 ml-14">
               <p className="font-poppins text-TextPrimary lg:text-xl text-md">

@@ -20,11 +20,11 @@ const MetaVerse = () => {
         <p className="hidden lg:block absolute md:right-16 lg:right-0 -top-20 bg-offWhite lg:w-48.5 lg:h-45.25 w-16 h-45.25 rounded-bl-[30px] rounded-tl-[30px]"></p>
       </div>
       <div
-        className="bg-offWhite rounded-[40px] w-full
+        className="bg-offWhite rounded-[40px] lg:w-full
   max-w-md
-  sm:max-w-xl
-  md:max-w-3xl
-  lg:max-w-5xl h-120 p-4 flex flex-col justify-between mx-12 lg:mx-auto"
+  sm:w-100
+  md:w-120
+  lg:max-w-5xl h-120 p-4 flex flex-col justify-between mx-12 mx-auto w-80"
       >
         <div className="flex justify-between items-center p-3">
           <p className="bg-offWhite border-2 border-white p-2 rounded-full">
