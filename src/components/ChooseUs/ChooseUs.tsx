@@ -1,4 +1,4 @@
-// import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 
 const CardStyles = ({
