@@ -31,10 +31,10 @@ const MetaVerse = () => {
             <FaArchive className="text-2xl" />
           </p>
           <div className="bg-[#04170A] p-3 w-40 rounded-full flex justify-evenly items-center">
-            <p className="font-poppins lg:text-xl text-md">
+            {/* <p className="font-poppins lg:text-xl text-md">
               360° <br />
               View
-            </p>
+            </p> */}
             <p className="bg-primary border-10 border-TextPrimary p-3 rounded-full">
               <FaArchive className="text-2xl" />
             </p>
