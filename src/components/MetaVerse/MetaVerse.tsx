@@ -28,7 +28,7 @@ const MetaVerse = () => {
       >
         <div className="flex justify-between items-center p-3">
           <p className="bg-offWhite border-2 border-white p-2 rounded-full">
-            {/* <FaArchive className="text-2xl" /> */}
+            <FaArchive className="text-2xl" />
           </p>
           <div className="bg-[#04170A] p-3 w-40 rounded-full flex justify-evenly items-center">
             <p className="font-poppins lg:text-xl text-md">
